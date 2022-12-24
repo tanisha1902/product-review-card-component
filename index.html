@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <style>
+    .container{
+    text-align:left;
+    width:600px;
+    height:400px;
+    background-color: white;
+    border-radius:10%;
+}
+  </style>
+  <style>
+    .image{
+    width:60%;
+    float:left;
+    text-align:left;
+    margin-right:20px;
+    width:300px ;
+    height:400px;
+    border-radius:10% 0 0 10%;
+}
+  </style>
+  <style>
+    .price{
+    color:#227C70;
+}
+</style>
+<style>
+  .previous{
+    text-decoration:line-through;
+}
+</style>
+<style>
+  .btn {
+    background: #227C70;;
+    background-image: -webkit-linear-gradient(top, #227C70;, #227C70;);
+    background-image: -moz-linear-gradient(top, #227C70;, #227C70;);
+    background-image: -ms-linear-gradient(top, #227C70;, #227C70;);
+    background-image: -o-linear-gradient(top, #227C70;, #227C70;);
+    background-image: linear-gradient(to bottom, #227C70;, #227C70;);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #f5faf5;
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+</style>
+<style>
+  .design{
+    text-align:center;
+    position:relative;
+    background-color: #FFF8E1;
+    padding-top:100px;
+    margin-right:350px;
+    margin-left:350px;
+  }
+</style>
+<style>
+  .para{
+    line-height:2;
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+  }
+  .head{
+    font-family: 'Fraunces', serif;
+  }
+</style>
+</head>
+<body class="design">
+  <div class="container" >
+  
+  <img class="image" src="image-product-desktop.png.jpg"  alt=" img" >
+
+  <p class="para" >PERFUME</p>
+ <h1 class="head">Gabrielle Essence Eau De Parfum</h1>
+ <p class="para">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+  Perfumer-Creator for the House of CHANEL.</p>
+<table>
+  <tr>
+    <td>
+  <h1 class="price" class="head">$149.99</h1> 
+</td>
+<td><p class="previous" class="para">$169.99</p></td>
+</tr>
+</table>
+  <a class="btn" href="mailto:name@email.com"> Add to Cart </a>
+
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Tanisha Saini</a>.
+  </div>
+</body>
+</html>
